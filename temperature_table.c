@@ -18,13 +18,12 @@ int main()
     fahrenheit = lower;
 
     // print table header
-    printf("%3s\t%6s\n", "F", "C");   
+    printf("%3s\t%6s\n", "F", "C");
 
-    while(fahrenheit <= upper)
+    while (fahrenheit <= upper)
     {
-        celsius = (5.0/9.0) * (fahrenheit - 32.0);
+        celsius = (5.0 / 9.0) * (fahrenheit - 32.0);
         printf("%3.0f\t%6.1f\n", fahrenheit, celsius);
         fahrenheit = fahrenheit + step;
     }
-
 }

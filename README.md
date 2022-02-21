@@ -18,6 +18,12 @@ gcc hello_world.c -o hello_world.out
 ./hello_world.out
 ```
 
+#### Temperature Table
+```
+gcc temperature_table.c -o temperature_table.out
+./temperature_table.out
+```
+
 #### Fibonacci
 ```
 gcc fibonacci.c -o fibonacci.out
