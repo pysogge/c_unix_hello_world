@@ -15,3 +15,7 @@ otool -tv hello_world.out
 #### Hello World
 gcc hello_world.c -o hello_world.out
 ./hello_world.out
+
+#### Fibonacci
+gcc fibonacci.c -o fibonacci.out
+./fibonacci.out
