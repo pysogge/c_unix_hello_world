@@ -21,7 +21,7 @@ sh ./build/script.sh -r fibonacci
 
 ## Run
 ```bash
-cat linecount.txt | ./exec/linecount.out
+cat input/linecount.txt | ./exec/linecount.out
 ```
 
 ## See Assembly Output (Unix)
